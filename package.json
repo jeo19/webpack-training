@@ -1,0 +1,26 @@
+{
+  "name": "webpack-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeo19/webpack-training.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeo19/webpack-training/issues"
+  },
+  "homepage": "https://github.com/jeo19/webpack-training#readme",
+  "description": ""
+}
