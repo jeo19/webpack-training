@@ -14,3 +14,4 @@
 ### 2. Install node module
 
 - npm i --D style-loader css-loader
+- npm i -D file-loader csv-loader
