@@ -86,25 +86,25 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/another.css":
-/*!***************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/another.css ***!
-  \***************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/another.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./src/another.css ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".another {\\r\\n  background-color: mediumseagreen;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/another.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".src-another__another--3TlI1 {\\r\\n  background-color: mediumseagreen;\\r\\n}\\r\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"another\": \"src-another__another--3TlI1\"\n};\n\n//# sourceURL=webpack:///./src/another.css?./node_modules/css-loader/dist/cjs.js??ref--4-1");
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
-  \*************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/style.css":
+/*!***********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./src/style.css ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ./RobotoMono-Regular.ttf */ \"./src/RobotoMono-Regular.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\r\\n  font-family: \\\"Roboto Mono\\\";\\r\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \") format(\\\"ttf\\\");\\r\\n  font-weight: 600;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n/* .hello { */\\r\\n.hello {\\r\\n  background-color: coral;\\r\\n  font-family: \\\"Roboto Mono\\\";\\r\\n}\\r\\n\\r\\n.center {\\r\\n  margin: 0 auto;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ./RobotoMono-Regular.ttf */ \"./src/RobotoMono-Regular.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\r\\n  font-family: \\\"Roboto Mono\\\";\\r\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \") format(\\\"ttf\\\");\\r\\n  font-weight: 600;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n/* .hello { */\\r\\n.src-style__another--1tmw6 {\\r\\n  background-color: coral;\\r\\n  font-family: \\\"Roboto Mono\\\";\\r\\n}\\r\\n\\r\\n.src-style__center--2hzUI {\\r\\n  margin: 0 auto;\\r\\n}\\r\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"another\": \"src-style__another--1tmw6\",\n\t\"center\": \"src-style__center--2hzUI\"\n};\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js??ref--4-1");
 
 /***/ }),
 
@@ -172,7 +172,7 @@ eval("module.exports = __webpack_require__.p + \"e2642a6882ef2432ee9ac442691a438
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./another.css */ \"./node_modules/css-loader/dist/cjs.js!./src/another.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/another.css?");
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--4-1!./another.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/another.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/another.css?");
 
 /***/ }),
 
@@ -184,7 +184,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/c
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bar.js */ \"./src/bar.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _the1975_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./the1975.jpg */ \"./src/the1975.jpg\");\n/* harmony import */ var _the1975_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_the1975_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n\r\n// import \"./style.css\";\r\n\r\n\r\n\r\nfunction app() {\r\n  const division = document.createElement(\"div\");\r\n  const h1 = document.createElement(\"h1\");\r\n  h1.innerHTML = \"Hello webpack\";\r\n  // h1.className = \"hello\";\r\n  h1.className = \"hello\";\r\n  const img = new Image();\r\n  img.className = \"center\";\r\n  img.src = _the1975_jpg__WEBPACK_IMPORTED_MODULE_2___default.a;\r\n  division.appendChild(h1);\r\n  division.appendChild(img);\r\n  console.log(_data_json__WEBPACK_IMPORTED_MODULE_3__);\r\n  return division;\r\n}\r\ndocument.body.appendChild(app());\r\ndocument.body.appendChild(Object(_bar_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bar.js */ \"./src/bar.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _the1975_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./the1975.jpg */ \"./src/the1975.jpg\");\n/* harmony import */ var _the1975_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_the1975_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n\r\n// import \"./style.css\";\r\n\r\n\r\n\r\nfunction app() {\r\n  const division = document.createElement(\"div\");\r\n  const h1 = document.createElement(\"h1\");\r\n  h1.innerHTML = \"Hello webpack\";\r\n  // h1.className = \"hello\";\r\n  h1.className = _style_css__WEBPACK_IMPORTED_MODULE_1___default.a.another;\r\n  const img = new Image();\r\n  img.className = _style_css__WEBPACK_IMPORTED_MODULE_1___default.a.center;\r\n  img.src = _the1975_jpg__WEBPACK_IMPORTED_MODULE_2___default.a;\r\n  division.appendChild(h1);\r\n  division.appendChild(img);\r\n  console.log(_data_json__WEBPACK_IMPORTED_MODULE_3__);\r\n  return division;\r\n}\r\ndocument.body.appendChild(app());\r\ndocument.body.appendChild(Object(_bar_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -196,7 +196,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bar
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _another_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./another.css */ \"./src/another.css\");\n/* harmony import */ var _another_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_another_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nfunction bar() {\r\n  const contents = document.createElement(\"h3\");\r\n  contents.innerHTML = \"Image Element!\";\r\n  contents.className = \"another\";\r\n  return contents;\r\n}\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (bar);\r\n\n\n//# sourceURL=webpack:///./src/bar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _another_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./another.css */ \"./src/another.css\");\n/* harmony import */ var _another_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_another_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nfunction bar() {\r\n  const contents = document.createElement(\"h3\");\r\n  contents.innerHTML = \"Image Element!\";\r\n  contents.className = _another_css__WEBPACK_IMPORTED_MODULE_0___default.a.another;\r\n  return contents;\r\n}\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (bar);\r\n\n\n//# sourceURL=webpack:///./src/bar.js?");
 
 /***/ }),
 
@@ -218,7 +218,7 @@ eval("module.exports = {\"glossary\":{\"title\":\"example glossary\",\"GlossDiv\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/style.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/style.css?");
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--4-1!./style.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/style.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/style.css?");
 
 /***/ }),
 
