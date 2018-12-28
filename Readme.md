@@ -15,3 +15,5 @@
 
 - npm i --D style-loader css-loader
 - npm i -D file-loader csv-loader
+- npm install html-webpack-plugin -dev (This plugin is that makes to auto the index.html)
+- npm install clean-webpack-plugin -dev (This plugin is that clean the bundle files)
