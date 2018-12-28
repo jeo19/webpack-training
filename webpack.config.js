@@ -15,10 +15,14 @@ module.exports = {
     new CleanWebpackPlugin(["build"]),
     new HtmlWebpackPlugin({
       title: "Nila webpack v4!",
-      inject: true,
+      inject: "body",
       template: path.resolve(__dirname, "index.html")
     })
   ],
+  devServer: {
+    port: 8000,
+    inline: true
+  },
   module: {
     rules: [
       {

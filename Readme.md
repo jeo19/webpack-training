@@ -17,3 +17,4 @@
 - npm i -D file-loader csv-loader
 - npm install html-webpack-plugin -dev (This plugin is that makes to auto the index.html)
 - npm install clean-webpack-plugin -dev (This plugin is that clean the bundle files)
+- npm install -dev webpack-dev-server (It's help able to use the development server)
