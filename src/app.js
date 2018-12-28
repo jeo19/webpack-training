@@ -6,7 +6,7 @@ import exampleJsonData from "./data.json";
 function app() {
   const division = document.createElement("div");
   const h1 = document.createElement("h1");
-  h1.innerHTML = "Hello webpack";
+  h1.innerHTML = "Hi webpack";
   // h1.className = "hello";
   h1.className = styles.another;
   const img = new Image();

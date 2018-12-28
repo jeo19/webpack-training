@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 module.exports = {
   mode: "development",
+  // Bug tracking
+  devtool: "inline-source-map",
   entry: {
     app: path.resolve(__dirname, "src", "app.js"),
     bar: path.resolve(__dirname, "src", "bar.js")
@@ -21,7 +23,10 @@ module.exports = {
   ],
   devServer: {
     port: 8000,
-    inline: true
+    inline: true,
+    overlay: true,
+    historyApiFallback: true,
+    host: "0.0.0.0"
   },
   module: {
     rules: [
